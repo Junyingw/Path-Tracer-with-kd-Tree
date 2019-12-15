@@ -13,6 +13,6 @@ $ cmake ..
 $ make
 ```
 # Demo
-![]https://github.com/Junyingw/Path-Tracer-with-kd-Tree/blob/master/demo/demo.gif
+![alt-text](https://github.com/Junyingw/Path-Tracer-with-kd-Tree/blob/master/demo/demo.gif)
 # Code
 Coming soon...
