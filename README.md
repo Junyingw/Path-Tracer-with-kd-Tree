@@ -15,4 +15,8 @@ $ make
 # Demo
 ![alt-text](https://github.com/Junyingw/Path-Tracer-with-kd-Tree/blob/master/demo/demo_update.gif)
 # Code
-Coming soon...
+Testing for intersection between a ray and a triangle is easy, but if the geometry has too many triangles, that would be time consuming. In this project, we use axis-aligned bounding box to build Kd-tree, trying to optimize this problem. We can benifit kd tree by only testing if the ray hits the bounding box. 
+1) Using Obj-reader to read and detect triangle-based geometries. 
+2) Building axis-align bounding box to generate kd-tree, and level down the tree.
+3) For each level of the tree, find the midpoint of all triangles in the node; finding the longest axis of the bounding box for that node
+4) Checking each triangle in the node, and then push them to the certain child node. 
