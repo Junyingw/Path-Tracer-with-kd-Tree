@@ -13,7 +13,7 @@ $ cmake ..
 $ make
 ```
 # Demo
-![alt-text](https://github.com/Junyingw/Path-Tracer-with-kd-Tree/blob/master/demo/demo_update.gif)
+![alt-text](https://github.com/Junyingw/renderppl-dataset/blob/master/examples/aaron_image.png)
 # Code
 Testing for intersection between a ray and a triangle is easy, but if the geometry has too many triangles, that would be time consuming. In this project, we use axis-aligned bounding box to build k-d tree, trying to optimize this problem. We can benifit k-d tree by only testing if the ray hits the bounding box. 
 1) Using Obj-reader to read and detect triangle-based geometries. 
